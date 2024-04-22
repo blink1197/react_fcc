@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main: #ffffff;
+  --text: #000000;
+  --text-gray: #918E9B;
+}
+
+.App {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--main);
+  width: 550px;
+  margin: 10px auto;
+  border-radius: 8.95px 8.95px 8.95px 8.95px;
+}
+
+.Header {
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 30px;
+  border-radius: 8.95px 8.95px 0 0;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
+  background: #FFFFFF;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo {
+  height: 26px;
+}
+
+.Hero {
+  height: 420px;
+}
+
+.hero-image {
+  width: 73px;
+  max-height: 100%;
+  border-radius: 15px;
+  padding: 3px;
+
+}
+
+.images-container {
+  display: flex;
+  
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px 0;
+}
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  
+}
+
+.vertical-container:nth-of-type(4) {
+  position: relative;
+  top: -20px;
+}
+
+.vertical-container:nth-of-type(2) {
+  position: relative;
+  top: -8px;
+}
+
+.vertical-container:nth-of-type(5) {
+  position: relative;
+  top: 4px;
+}
+
+.vertical-container:nth-of-type(3) {
+  position: relative;
+  top: 16px;
+}
+
+.vertical-container:nth-of-type(1) {
+  position: relative;
+  top: 28px;
+}
+
+.hero-text {
+  padding-left: 30px;
+}
+
+.hero-text h1{
+  font-size: 36px;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.hero-text p{
+  width: 65%;
+  margin: 0;
+  padding: 0;
+}
+
+.Cards {
+  height: 367px;
+  padding: 0 20px;
+  border-radius: 0 0 8.95px 8.95px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  
+}
+
+.Cards::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  padding: 5px;
+  width: 190px;
+  margin-right: 5px;
+}
+
+.card-details p {
+  margin: 0px;
+  font-size: 11.5px;
+}
+
+.card-image {
+  height: 235px;
+  border-radius: 9px;
+}
+
+.rating div{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.rating div img {
+  width: 10px;
+  height: 10px;
+  margin-bottom: 4.5px;
+}
+
+.rating div p {
+  margin: 0 3px;
+}
+
+.rating div p:last-of-type {
+  color: var(--text-gray);
+}
+
+.status {
+  height: 20px;
+  width: 61px;
+  background-color: var(--main);
+  z-index: 1;
+  position: relative;
+
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 27px;
+  left: 7px;
+  border-radius: 2px;
+}

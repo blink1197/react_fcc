@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --base: #e5e5e5;
+  --main: #ffffff;
+  --hr--color: #F5F5F5;
+  --highlight: #F55A5A;
+  --light-text: #918E9B;
+  --text: #2B283A;
+}
+
+.App {
+  width: 625px;
+  margin: 20px auto;
+  font-family: 'Inter';
+}
+
+.Header {
+  height: 55px;
+  background-color: var(--highlight);
+  color: var(--main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.header-icon {
+  width: 24px;
+  height: 24px;
+  margin: 10px;
+}
+
+.Main {
+  background-color: var(--main);
+}
+
+.Card {
+  width: 90%;
+  border-bottom: 1px solid var(--hr--color);
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.card-image {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.details h1,p {
+  margin: 0;
+}
+
+.details h1,p {
+  font-size: 25px;
+}
+
+.details p {
+  font-size: 11px;
+  margin: 10px 0 10px 0;
+}
+
+.details p:first-of-type {
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+
+.details div {
+  margin-bottom: 10px;
+}
+
+.details div img {
+  height: 15px;
+  margin-right: 5px;
+}
+
+.details div span {
+  margin-right: 20px;
+}

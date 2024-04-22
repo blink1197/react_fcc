@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+:root {
+  --main-dark: #672280;
+  --main-light: #A626D3;
+  --text-dark: #374151;
+  --text-light: #6B7280;
+  --text-white: #ffffff;
+  --button-border: #D1D5DB;
+  --base: #e5e5e5;
+}
+
+
+.App {
+  margin: 20px auto;
+  width: 550px;
+}
+
+.Header {
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+}
+
+.Header div {
+  font-family: 'Karla', sans-serif;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  width: 195px;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.Header img {
+  height: 26px;
+  max-height: 100%;
+}
+
+.Header p {
+  padding-right: 20px;
+}
+
+main {
+  background-color: white;
+  padding: 30px;
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-inputs {
+  width: 222px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-inputs h2{
+  font-size: 14px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.text-inputs input{
+  height: 31px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--button-border);
+  padding-left: 10px;
+  font-family: 'Karla', sans-serif;
+}
+
+.GenerateButton button {
+  width: 100%;
+  margin: 15px 0;
+  padding: 10px;
+  border: none;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: var(--text-white);
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer
+}
+
+.meme-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.meme-image {
+  width: 490px; 
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.meme-text {
+  font-family: Impact, sans-serif;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px;
+  font-size: 35px;
+  margin: 0 auto;
+  width: 100%
+}
+
+.top-text {
+  position: absolute;
+  top: 15px;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 15px;
+}
