@@ -1,0 +1,116 @@
+.App {
+  width: 317px;
+  margin: 0 auto;
+  color: var(--text-paragraph);
+  font-family: "Inter", sans-serif;
+  padding-top: 20px;
+}
+
+.main-image {
+  width: 317px;
+  height: 317px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: block;
+}
+
+.Header {
+  height: 162px;
+  margin : 0;
+  text-align: center;
+  background-color: var(--main);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Header h1 {
+  font-size: 25px;
+  line-height: 25px;
+  margin: 0;
+}
+
+.Header p:first-of-type {
+  font-size: 13px;
+  line-height: 5px;
+  color: var(--text-highlight);
+  margin: 0;
+}
+
+.Header p:last-of-type {
+  font-size: 10px;
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+}
+
+.button-container div {
+  cursor: pointer;
+}
+
+.button-container div:last-of-type{
+  background-color: var(--button-highlight);
+  color: var(--text-header);
+  
+}
+
+.header-button {
+  width: 115px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 0 14px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--text-header);
+  color: var(--text-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.Main {
+  background-color: var(--main);
+  margin: 0px;
+  padding: 10px 30px 30px 30px;
+  
+}
+
+.Main h1 {
+  font-size: 20px;
+  margin: 0px;
+  padding-top: 10px;
+  color: var(--text-header);
+}
+
+.Main p {
+  font-size: 10.5px;
+  margin: 0px;
+  padding: 10px 0;
+  color: var(--text-paragraph);
+}
+
+
+.Footer {
+  height: 64px;
+  background-color: var(--footer);
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer img {
+  height: 27px;
+  margin: 0 12.5px;
+}
+
