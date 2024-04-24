@@ -116,7 +116,9 @@ main {
   -webkit-text-stroke: 1px;
   font-size: 35px;
   margin: 0 auto;
-  width: 100%
+  width: 100%;
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
 .top-text {
